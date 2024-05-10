@@ -1,0 +1,317 @@
+[
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "Goal",
+        "importPath": "website.models",
+        "description": "website.models",
+        "isExtraImport": true,
+        "detail": "website.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "website.models",
+        "description": "website.models",
+        "isExtraImport": true,
+        "detail": "website.models",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "website",
+        "description": "website",
+        "isExtraImport": true,
+        "detail": "website",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "website.auth",
+        "description": "website.auth",
+        "peekOfCode": "def login():\n    if request.method == 'POST':\n        email = request.form.get('email')\n        password = request.form.get('password')\n        user = User.query.filter_by(email=email).first()\n        if user:\n            if check_password_hash(user.password, password):\n                flash('Logged in successfully!', category='success')\n                login_user(user, remember=True)\n                return redirect(url_for('views.home'))",
+        "detail": "website.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "website.auth",
+        "description": "website.auth",
+        "peekOfCode": "def logout():\n    logout_user()\n    return redirect(url_for('auth.login'))\n@auth.route('/sign-up', methods=['GET', 'POST'])\ndef sign_up():\n    if request.method == 'POST':\n        email = request.form.get('email')\n        username = request.form.get('username')\n        password1 = request.form.get('password1')\n        password2 = request.form.get('password2')",
+        "detail": "website.auth",
+        "documentation": {}
+    },
+    {
+        "label": "sign_up",
+        "kind": 2,
+        "importPath": "website.auth",
+        "description": "website.auth",
+        "peekOfCode": "def sign_up():\n    if request.method == 'POST':\n        email = request.form.get('email')\n        username = request.form.get('username')\n        password1 = request.form.get('password1')\n        password2 = request.form.get('password2')\n        user = User.query.filter_by(email=email).first()\n        if user:\n            flash('Email already exists.', category='error')\n        elif len(email) < 4:",
+        "detail": "website.auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 5,
+        "importPath": "website.auth",
+        "description": "website.auth",
+        "peekOfCode": "auth = Blueprint('auth', __name__)\n@auth.route('/login', methods=['GET', 'POST'])\ndef login():\n    if request.method == 'POST':\n        email = request.form.get('email')\n        password = request.form.get('password')\n        user = User.query.filter_by(email=email).first()\n        if user:\n            if check_password_hash(user.password, password):\n                flash('Logged in successfully!', category='success')",
+        "detail": "website.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Goal",
+        "kind": 6,
+        "importPath": "website.models",
+        "description": "website.models",
+        "peekOfCode": "class Goal(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    data = db.Column(db.String(10000))\n    date = db.Column(db.DateTime(timezone=True), default=func.now())\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(150), unique=True)\n    password = db.Column(db.String(150))\n    username = db.Column(db.String(150))",
+        "detail": "website.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "website.models",
+        "description": "website.models",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(150), unique=True)\n    password = db.Column(db.String(150))\n    username = db.Column(db.String(150))\n    goals = db.relationship('Goal')",
+        "detail": "website.models",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "website.views",
+        "description": "website.views",
+        "peekOfCode": "def home():\n    if request.method == \"POST\":\n        goal = request.form.get('goal')\n        if len(goal) < 1:\n            flash('Goal is too short!', category=\"error\")\n        else:\n            new_goal = Goal(data=goal, user_id=current_user.id)\n            db.session.add(new_goal)\n            db.session.add(current_user)\n            db.session.commit()",
+        "detail": "website.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_goal",
+        "kind": 2,
+        "importPath": "website.views",
+        "description": "website.views",
+        "peekOfCode": "def delete_goal():  \n    goal = json.loads(request.data) # this function expects a JSON from the INDEX.js file \n    goalId = goal['goalId']\n    goal = Goal.query.get(goalId)\n    if goal:\n        if goal.user_id == current_user.id:\n            db.session.delete(goal)\n            db.session.commit()\n    return jsonify({})",
+        "detail": "website.views",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "kind": 5,
+        "importPath": "website.views",
+        "description": "website.views",
+        "peekOfCode": "views = Blueprint('views', __name__)\n@views.route('/', methods=['GET', 'POST'])\n@login_required\ndef home():\n    if request.method == \"POST\":\n        goal = request.form.get('goal')\n        if len(goal) < 1:\n            flash('Goal is too short!', category=\"error\")\n        else:\n            new_goal = Goal(data=goal, user_id=current_user.id)",
+        "detail": "website.views",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = create_app()\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "main",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,61 @@
+{% extends "base.html" %} 
+
+{% block title %}Home{% endblock %} 
+
+{% block content%}
+
+<canvas id="canvas1"></canvas>
+
+<!-- Button trigger modal -->
+<button type="button" class="show-goals-btn btn bg-transparent" data-toggle="modal" data-target="#exampleModal">
+ +
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <h5 class="modal-title" id="exampleModalLabel">Goals</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><ul class="list-group list-group-flush" id="goals">
+        <!-- display goals at the top-->
+        {% for goal in user.goals %}
+        <li class="list-group-item">
+          {{ goal.data }}
+          <button type="button" class="close" onClick="deleteGoal({{ goal.id }})">
+      
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </li>
+        {% endfor %}
+      </ul></p>
+      <div class="modal-body">
+        <form method="POST">
+          <input type="goal" name="goal" id="goal" class="new-goal form-control"></textarea>
+          <br />
+      </div>
+      <div class="modal-footer">
+        <div align="center">
+          <button type="submit" class="btn btn-primary">Add goal</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{{url_for('static', filename="scripts/fishMovement.js")}}"></script>
+
+
+
+
+
+</form>
+
+
+
+{% endblock %}''

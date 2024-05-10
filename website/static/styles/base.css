@@ -1,0 +1,77 @@
+
+
+/* NAVBAR */
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #fff;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #fff;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* SIGN UP and LOG IN */
+/* .container {
+  background-color: #f2f2f2;
+  height: 10vh;
+} */
+
+.card {
+  background-color: rgba(36, 36, 36, 0.56);
+}
+
+.card-body {
+  opacity: 1;
+}
+
+
+/* GOALS */
+/* Form that contains each indivual goal */
+.form-container {
+  margin-bottom: 10px;
+}
+
+/* button that shows modal with all the goals  */
+.show-goals-btn {
+  font-size: 30px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px; 
+}
+
+#canvas1 {
+  position: absolute;
+  background-color: lightblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 700px;
+  height: 700px;
+}
+
+.new-goal {
+  border : 0; 
+}
